@@ -3,10 +3,10 @@ A simple game built with React, where you choose a Pokémon card and battle a ra
 You can visit the [demo](https://react-pokemon-battles.herokuapp.com/)
 ## The Game
 First, the player chooses a Pokémon card. Then, a random Pokémon is choosen and the battle will begin as soon as the player hits the battle button. All of the moves (attacks) available for a Pokémon are choosen randomly.<br>
-<img alt="choose a card" src="https://github.com/danielsason112/react-pokemon-battles/public/choose-a-card.png" width="80%" />
-choose a card
-On the player's turn, the available moves are showen in the battle menu, and when clicking on one of them, the player's Pokémon will perform the attack. Next, the opponent Pokémon will attack with one randomly choosen move. The hit damage is in the range of 0 to the move's power (showen in the Pokémon card). Those two steps are repeated until one of the Pokémon hp reaches 0, and the winner is anounced.
-<img alt="battle" src="https://github.com/danielsason112/react-pokemon-battles/public/battle.png" width="60%" />
+<img alt="choose a card" src="https://github.com/danielsason112/react-pokemon-battles/blob/main/public/choose-a-card.png" width="80%" />
+<br>
+On the player's turn, the available moves are showen in the battle menu, and when clicking on one of them, the player's Pokémon will perform the attack. Next, the opponent Pokémon will attack with one randomly choosen move. The hit damage is in the range of 0 to the move's power (showen in the Pokémon card). Those two steps are repeated until one of the Pokémon hp reaches 0, and the winner is anounced.<br>
+<img alt="battle" src="https://github.com/danielsason112/react-pokemon-battles/blob/main/public/battle.png" width="60%" />
 ## Under The Hood
 - **React** - creat-react-app.
 - **React** Router - A collection of navigational components for routing.
