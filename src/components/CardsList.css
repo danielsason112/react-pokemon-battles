@@ -1,0 +1,15 @@
+.CardsList {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.CardsList .Card {
+    margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+    .CardsList .Card {
+        margin: 10px 0;
+    }
+}

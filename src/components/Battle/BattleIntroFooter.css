@@ -1,0 +1,15 @@
+.battle-btn {
+    padding: 10px 15px;
+    background-color: #3B4CCA;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 5px #ccc;
+    color: #fff;
+    font-size: 1.3em;
+    cursor: pointer;
+    transition-duration: 0.3s;
+ }
+
+ .battle-btn:hover {
+     transform: scale(1.1, 1.1);
+ }

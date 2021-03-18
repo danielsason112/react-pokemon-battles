@@ -1,0 +1,74 @@
+.image-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-image: url("./ground.svg");
+    background-repeat: no-repeat;
+    background-position: 50% 150%;
+}
+
+.image-wrapper img {
+    min-width: 150px;
+}
+
+.player-attack {
+    animation: playerAttack 1s linear;
+}
+
+.opponent-attack {
+    animation: opponentAttack 1s linear;
+}
+
+.damage {
+    animation: damage 1s linear 1s;
+}
+
+.faint {
+    animation: faint 0.5s linear forwards;
+}
+
+@keyframes damage {
+    25% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes playerAttack {
+    60% {
+        transform: translateX(-30px);
+    }
+    80% {
+        transform: translateX(30px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes opponentAttack {
+    60% {
+        transform: translateX(30px);
+    }
+    80% {
+        transform: translateX(-30px);
+    }
+    100% {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes faint {
+    100% {
+        transform: translateY(100px);
+        opacity: 0;
+    }
+}

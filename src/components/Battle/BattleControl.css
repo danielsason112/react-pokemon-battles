@@ -1,0 +1,14 @@
+.battle-control-wrapper {
+    height: 120px;
+    width: 100%;
+    background-color: #333;
+}
+
+.battle-control {
+    width: 99%;
+    height: 116px;
+    box-sizing: border-box;
+    border: 6px solid #ffd700;
+    border-radius: 10px;
+    margin: 2px auto;
+}

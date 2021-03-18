@@ -1,0 +1,12 @@
+<svg width="200" height="100" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>Layer 1</title>
+  <ellipse fill-opacity="0.62" stroke="#f4cca6" ry="38.5" rx="97.50001" id="svg_2" cy="51.3" cx="103" opacity="NaN" fill="#aa845f"/>
+  <ellipse id="svg_3" cy="317" cx="615" opacity="NaN" stroke="#f4cca6" fill="#aa845f"/>
+  <ellipse id="svg_4" cy="314" cx="612" opacity="NaN" stroke="#f4cca6" fill="#aa845f"/>
+  <ellipse id="svg_5" cy="310" cx="612" opacity="NaN" stroke="#f4cca6" fill="#aa845f"/>
+  <ellipse id="svg_6" cy="319" cx="612" opacity="NaN" stroke="#f4cca6" fill="#aa845f"/>
+  <ellipse id="svg_7" cy="400" cx="801" opacity="NaN" stroke="#f4cca6" fill="#aa845f"/>
+ </g>
+</svg>

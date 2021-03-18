@@ -1,0 +1,19 @@
+.battle-menu li {
+    box-sizing: border-box;
+    width: 50%;
+    list-style: none;
+    cursor: pointer;
+}
+
+.battle-menu span img {
+    width: 10px;
+    padding-right: 5px;
+}
+
+.battle-menu li span {
+    opacity: 0;
+}
+
+.battle-menu li:hover span {
+    opacity: 1;
+}

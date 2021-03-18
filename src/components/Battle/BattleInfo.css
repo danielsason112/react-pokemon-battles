@@ -1,0 +1,12 @@
+.battle-info {
+    box-sizing: border-box;
+    height: 100%;
+    background-color: #294d64;
+    border: 3px solid beige;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.battle-info p {
+    padding-left: 20px;
+}

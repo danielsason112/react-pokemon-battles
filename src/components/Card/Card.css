@@ -1,0 +1,151 @@
+:root {
+    --grass-type: #78C850;
+    --grass-bg: #A7DB8D;
+    --poison-type: #A040A0;
+    --poison-bg: #C183C1;
+    --bug-type: #A8B820;
+    --bug-bg: #C6D16E;
+    --dark-type: #705848;
+    --dark-bg: #A29288;
+    --dragon-type: #7038F8;
+    --dragon-bg: #A27DFA;
+    --electric-type: #F8D030;
+    --electric-bg: #FAE078;
+    --fairy-type: #EE99AC;
+    --fairy-bg: #F4BDC9;
+    --fighting-type: #C03028;
+    --fighting-bg: #D67873;
+    --flying-type: #A890F0;
+    --flying-bg: #C6B7F5;
+    --fire-type: #F08030;
+    --fire-bg: #F5AC78;
+    --ghost-type: #705898;
+    --ghost-bg: #A292BC;
+    --ground-type: #E0C068;
+    --ground-bg: #EBD69D;
+    --ice-type: #98D8D8;
+    --ice-bg: #BCE6E6;
+    --normal-type: #A8A878;
+    --normal-bg: #C6C6A7;
+    --psychic-type: #F85888;
+    --psychic-bg: #FA92B2;
+    --rock-type: #B8A038;
+    --rock-bg: #D1C17D;
+    --steel-type: #B8B8D0;
+    --steel-bg: #D1D1E0;
+    --water-type: #6890F0;
+    --water-bg: #9DB7F5;
+}
+
+.Card {
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 340px;
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 10px solid #f5dc41;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #ccc;
+}
+
+.Card-img {
+    width: 90%;
+    max-height: 200px;
+    background-color: #ccc;
+    border: 5px solid #f5dc41;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #888;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Card-img img {
+    width: 70%;
+}
+
+.Card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.Card-type-sticker {
+    width: 30px;
+    margin-left: 5px;
+}
+
+.Card-top p {
+    margin: 0;
+}
+
+.Card-name {
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+
+
+.card-types {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    list-style: none;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card-types li {
+    padding: 0px 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    color: #eee;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+
+.Card-moves {
+    width: 90%;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Card-moves li {
+    min-height: 40px;
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+    border-bottom: 1px solid #000;
+}
+.Card-moves li p {
+    font-size: 0.7rem;
+    margin: 0;
+    text-align: start;
+    width: 100%;
+}
+
+.Card-move-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+li .Card-move-top p {
+    font-weight: 700;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.Card-move-top .Card-type-sticker {
+    margin: 0;
+    width: 20px;
+}

@@ -1,0 +1,28 @@
+.page {
+    max-width: 800px;
+    margin: 50px auto;
+}
+
+.page h3 {
+    font-size: 1.5rem;
+}
+
+.page p, .page li {
+    font-size: 1.2rem;
+}
+
+.page img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.page a {
+    color: #3B4CCA;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 600px) {
+    .page img {
+        width: 100%;
+    }
+}

@@ -1,0 +1,11 @@
+.App {
+  width: 100%;
+  overflow-x: hidden;
+  margin-top: 10vh;
+}
+
+.wrapper {
+  padding: 0 10%;
+  width: 100%;
+  box-sizing: border-box;
+}
