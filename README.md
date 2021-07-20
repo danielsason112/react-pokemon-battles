@@ -8,7 +8,7 @@ First, the player chooses a Pokémon card. Then, a random Pokémon is choosen an
 On the player's turn, the available moves are showen in the battle menu, and when clicking on one of them, the player's Pokémon will perform the attack. Next, the opponent Pokémon will attack with one randomly choosen move. The hit damage is in the range of 0 to the move's power (showen in the Pokémon card). Those two steps are repeated until one of the Pokémon hp reaches 0, and the winner is anounced.<br>
 <img alt="battle" src="https://github.com/danielsason112/react-pokemon-battles/blob/main/public/battle.png" width="60%" />
 ## Under The Hood
-- **React** - creat-react-app.
+- **React** - create-react-app.
 - **React** Router - A collection of navigational components for routing.
 - **PokeAPI** - RESTful API serving all of Pokémon data.
 - **pokeapi-js-wrapper** - An asynchronous PokeAPI wrapper with built-in cache for browsers.
