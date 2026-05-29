@@ -1,6 +1,6 @@
 # React Pokemon Battles
 A simple game built with React, where you choose a Pokémon card and battle a random opponent.<br>
-You can visit the [demo](https://react-pokemon-battles.herokuapp.com/).
+You can visit the [demo](https://danielsason112.github.io/react-pokemon-battles/).
 ## The Game
 First, the player chooses a Pokémon card. Then, a random Pokémon is choosen and the battle will begin as soon as the player hits the battle button. All of the moves (attacks) available for a Pokémon are choosen randomly.<br>
 <img alt="choose a card" src="https://github.com/danielsason112/react-pokemon-battles/blob/main/public/choose-a-card.png" width="80%" />
